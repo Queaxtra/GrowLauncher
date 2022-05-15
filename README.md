@@ -36,9 +36,4 @@
 <a href="https://open.spotify.com/user/e3mdu37fpbqnlkj0p1lxbz171" target="_blank">
 <img src=https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white alt=spotify style="margin-bottom: 5px;" />
 </a>
-</div>  
-
-<br />
-
-----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
+</div>
