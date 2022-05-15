@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "api-growtopia": "^0.6.9",
     "body-parser": "^1.20.0",
     "child_process": "^1.0.2",
     "ejs": "^3.1.8",

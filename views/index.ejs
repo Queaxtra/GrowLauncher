@@ -15,80 +15,34 @@
 <body>
     <center>
         <div>
-            <h1 class="title">GrowLauncher</h1>
+            <h6 class="title">GrowLauncher - BETA</h6>
             <p class="counter">
                 <%= playerCountFormatted %> Players Online </p>
 
             <div>
-                <a href="/play"><button type="button" class="btn btn-success">Play!</button></a>
-                <button type="button" class="btn btn-primary" id="growtopia_update">Download Growtopia!</button>
+                <a href="/play"><button type="button" class="btn btn-success"><i class="fa-solid fa-gamepad"></i> Play!</button></a>
+                <button type="button" class="btn btn-primary" id="growtopia_update"><i class="fa-solid fa-download"></i> Download!</button>
+                <button type="button" class="btn btn-secondary" id="growtopia_forum"><i class="fa-solid fa-handshake-angle"></i> Forum!</button>
+                <button type="button" class="btn btn-danger" id="growtopia_support"><i class="fa-solid fa-ticket"></i> Support!</button>
             </div>
 
-            <div>
-                <h1 class="dq">Daily Quest</h1>
-                <div class="row" style="width: 32rem;">
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <%= item1_name %>
-                                </h5>
-                                <p class="card-text"><span style="color: black;">Amount:</span>
-                                    <%= item1_amount %>
-                                        <br>
-                                        <span style="color: black;">Rate:</span>
-                                        <%= item1_rate %>
-                                            <br>
-                                            <span style="color: black;">Price:</span>
-                                            <%= item1_price %>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title" style="color: black;">
-                                    <%= item2_name %>
-                                </h5>
-                                <p class="card-text"><span style="color: black;">Amount:</span>
-                                    <%= item2_amount %>
-                                        <br>
-                                        <span style="color: black;">Rate:</span>
-                                        <%= item2_rate %>
-                                            <br>
-                                            <span style="color: black;">Price:</span>
-                                            <%= item2_price %>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <!-- <footer class="text-center text-lg-start" style="background-color: rgb(26, 26, 26);">
+                <div class="text-center p-3" style="color: white;">
+                    Made by <a href="https://github.com/Queaxtra">Queaxtra</a> with <i class="fas fa-heart"></i>
                 </div>
-            </div>
-
-            <div>
-                <h1 class="wotd">World of the Day</h1>
-                <div class="card" style="width: 18rem;">
-                    <img src="<%= wotdURL %>" class="card-img-top" alt="Sunset Over the Sea" />
-                    <div class="card-body">
-                        <p class="card-text">
-                            <%= wotdName %>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br>
-
-        <footer class="text-center text-lg-start" style="background-color: rgb(26, 26, 26);">
-            <div class="text-center p-3" style="color: white;">
-                Made by <a href="https://github.com/Queaxtra">Queaxtra</a> with <i class="fas fa-heart"></i>
-            </div>
-        </footer>
+            </footer> -->
     </center>
     <script type="text/javascript" language="Javascript">
         document.getElementById("growtopia_update").addEventListener("click", function() {
             window.open("https://www.growtopiagame.com/Growtopia-Installer.exe");
+        });
+
+        document.getElementById("growtopia_forum").addEventListener("click", function() {
+            window.open("https://www.growtopiagame.com/forums/");
+        });
+
+        document.getElementById("growtopia_support").addEventListener("click", function() {
+            window.open("https://growtopiagame.com/player");
         });
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
