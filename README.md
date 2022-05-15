@@ -10,13 +10,9 @@
 • Game on/off.  
   
 
-• Can download the game.  
-  
-
-• Shows Daily Quests.  
-  
-
-• Shows the WOTD World.  
+• Can download the game.
+• You can access the forum.
+• You can message the support team.
   
 
 <br/>  
