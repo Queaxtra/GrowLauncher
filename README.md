@@ -11,7 +11,11 @@
   
 
 • Can download the game.
-• You can access the forum.
+  
+
+• You can access the forum.  
+  
+
 • You can message the support team.
   
 
